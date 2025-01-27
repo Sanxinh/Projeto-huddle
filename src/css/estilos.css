@@ -3,12 +3,10 @@ html {
     font-family: 'Poppins', 'Open Sans';
     font-weight: 400;
     max-width: 1440px;
-    
     background-color: hsl(257, 40%, 49%);
 }
 
 body {
-    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -20,7 +18,6 @@ body {
     background: url(../images/bg-desktop.svg) center center no-repeat;
     background-size: cover;
     max-width: 1920px;
-
 }
 
 .cabecalho {
@@ -38,7 +35,6 @@ body {
             grid-area: 1 / 2 / 3 / 3;
             padding: 55px 0 0 30px;
 
-            
             h3 {
                 font-size: 3.5rem;
                 max-width: 400px;
@@ -52,14 +48,12 @@ body {
                 max-width: 460px;
                 line-height: 25px;
                 margin-top: 30px;
-                
             }
 
         }
 }
 
-button {
-                
+button {          
     margin-top: 30px;
     padding: 15px 70px 15px 70px;
     border: 25px ;
@@ -81,14 +75,10 @@ button:hover {
 .rodape {
     grid-area: rodape;
     grid-area: 3 / 2 ;
-    
-
-    
 }
 
 .rodape div {
     display: flex;
-    
 }
 
 .rodape div a {

@@ -1,0 +1,68 @@
+@media (max-width: 375px){
+    body {
+        display: flex;
+        flex-direction: column;
+        background: url(../images/bg-mobile.svg) no-repeat;
+        padding: 0;
+        
+    }
+
+    .cabecalho {
+        img {
+            width: 150px;
+            margin: 25px
+        }
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 100px;
+
+        img {
+            padding: 0 0 50px 50px;
+            width: 340px;
+        }
+
+        .conteudo-principal {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            h3 {
+                font-size: 2.5rem;
+                width: 320px;
+            }
+
+            p {
+                font-size: 1.2;
+                width: 305px;
+            }
+        }
+
+        button {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            padding: 10px 70px 10px 70px;
+        }
+
+    }
+
+    .rodape {
+        padding: 0 0 30px 100px;  
+    }
+
+    .rodape div a {
+        width: 35px;
+        height: 35px;
+    }
+
+
+    
+}
