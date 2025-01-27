@@ -1,4 +1,5 @@
-@media (max-width: 375px){
+@media (max-width: 576px) {
+
     body {
         display: flex;
         flex-direction: column;
@@ -62,7 +63,5 @@
         width: 35px;
         height: 35px;
     }
-
-
-    
+ 
 }
