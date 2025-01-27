@@ -1,4 +1,10 @@
 @media (max-width: 576px) {
+    
+
+}
+
+
+@media (max-width: 425px) {
 
     body {
         display: flex;
@@ -56,12 +62,11 @@
     }
 
     .rodape {
-        padding: 0 0 30px 100px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
     }
 
-    .rodape div a {
-        width: 35px;
-        height: 35px;
-    }
- 
+  
 }
