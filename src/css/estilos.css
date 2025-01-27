@@ -1,14 +1,17 @@
 html {
     font-size: 62.5%;
-    font-family: 'Open-sans';
+    font-family: 'Poppins', 'Open Sans';
     font-weight: 400;
+    max-width: 1440px;
+    
     background-color: hsl(257, 40%, 49%);
 }
 
 body {
     
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid: 
     "cabecalho cabecalho"
     "principal principal"
@@ -22,14 +25,89 @@ body {
 
 .cabecalho {
     grid-area: cabecalho;
+    margin-bottom: 40px;
 }
 
 .principal {
     grid-area: principal;
+    display: grid;
+    color: #fff;
 
+    
+        .conteudo-principal {
+            grid-area: 1 / 2 / 3 / 3;
+            padding: 55px 0 0 30px;
+
+            
+            h3 {
+                font-size: 3.5rem;
+                max-width: 400px;
+                font-weight: 500;
+                line-height: 50px;
+            }
+
+            p {
+                font-size: 1.5rem;
+                font-weight: 300;
+                max-width: 460px;
+                line-height: 25px;
+                margin-top: 30px;
+                
+            }
+
+        }
+}
+
+button {
+                
+    margin-top: 30px;
+    padding: 15px 70px 15px 70px;
+    border: 25px ;
+    border-radius: 50px;
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.2), 
+    0 0 15px rgba(0, 0, 0, 0.1);
+    font-size: 1.8rem;
+    font-weight: 300;
+    transition: 0.3s;
+    cursor: pointer;
+    color: hsl(257, 40%, 49%);
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
 }
 
 .rodape {
     grid-area: rodape;
+    grid-area: 3 / 2 ;
+    
+
+    
+}
+
+.rodape div {
+    display: flex;
+    
+}
+
+.rodape div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px; 
+    color: #fff; 
+    font-size: 2rem; 
+    border: 1px solid #ffffff; 
+    border-radius: 50%; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 10px;
+}
+  
+.rodape div a:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
 }
 
