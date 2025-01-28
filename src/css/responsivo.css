@@ -1,4 +1,4 @@
-    @media (max-width: 576px) {
+@media (max-width: 576px) {
         body {
             display: flex;
             flex-direction: column;
@@ -21,12 +21,12 @@
         }
 
 
-        .rodape {
+        footer {
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 50px 10px 0 30px  ;
-            
+            padding: 50px 10px 10px 30px  ;
+
         }
         
     }
@@ -37,7 +37,7 @@
     body {
         display: flex;
         flex-direction: column;
-        background: url(../images/bg-mobile.svg) no-repeat;
+        background: url(../images/bg-mobile.svg) no-repeat hsl(257, 40%, 49%);
         padding: 0;
         
     }
@@ -55,7 +55,7 @@
         padding: auto;
         text-align: center;
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
 
         img {
             padding: 0 0 50px 50px;
@@ -69,6 +69,8 @@
             justify-content: center;
             align-items: center;
             text-align: center;
+            
+        
 
             h3 {
                 font-size: 2.5rem;
@@ -93,8 +95,36 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 50px;
+        padding: 0 0 50px 0; 
     }
 
   
+}
+
+@media (max-width: 992px) { 
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .conteudo-principal {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0 0 35px;
+    }
+
 }

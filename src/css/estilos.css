@@ -2,9 +2,7 @@ html {
     font-size: 62.5%;
     font-family: 'Poppins', 'Open Sans';
     font-weight: 400;
-    max-width: 1920px;
-    max-height: auto;
-    background-color: hsl(257, 40%, 49%);
+    
 }
 
 body {
@@ -16,9 +14,9 @@ body {
     "principal principal"
     "rodape rodape";
     padding: 60px;
-    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background: url(../images/bg-desktop.svg) center center no-repeat hsl(257, 40%, 49%);
     background-size: cover;
-    max-width: 1920px;
+
 }
 
 .cabecalho {
