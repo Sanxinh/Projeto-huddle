@@ -1,7 +1,35 @@
-@media (max-width: 576px) {
-    
+    @media (max-width: 576px) {
+        body {
+            display: flex;
+            flex-direction: column;
+        }
 
-}
+        header  {
+            display: flex;
+            flex-direction: column;
+
+            img {
+                width: 200px;
+            }
+        }
+
+        .principal {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+
+
+        .rodape {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 10px 0 30px  ;
+            
+        }
+        
+    }
 
 
 @media (max-width: 425px) {
