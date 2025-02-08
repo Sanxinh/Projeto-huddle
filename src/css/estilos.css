@@ -17,7 +17,9 @@ body {
     padding: 60px;
     background: url(../images/bg-desktop.svg) center center no-repeat hsl(257, 40%, 49%);
     background-size: cover;
-   
+    max-width: 1440; 
+    margin: 0 auto;
+    height: 100vh;
 }
 
 .cabecalho {
